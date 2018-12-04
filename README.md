@@ -1,4 +1,4 @@
 # stroom.app
 Stroom website
 
-Building novel solutions for traffic congestion problem. 
+Technology for Commercial Real Estate Planning and Workplace. 
