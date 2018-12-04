@@ -15,5 +15,5 @@ Products and Services:
 3. Workplace Technology
  - Organizational Network Analysis using email data
  - Track, measure employee commute experience and their characteristics
- - Marketplace with childcare services, commute shuttles, commute benefits, maternity and paternity leave and maternity concierge services, care for childcare, children with special needs, help with fertility treatments and scholarships.  
+ - Marketplace with childcare services, commute shuttles, commute benefits, maternity and paternity leave and maternity concierge services, care for childcare, children with special needs, help with fertility treatments, travel/vacation services and scholarships.  
  - Bottomline Impact: Attract talent, proactively plan interventions to improve work productivity and employee retention rates. 
