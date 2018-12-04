@@ -53,25 +53,26 @@
         </p>
       </main>
 
-      <script src="https://embed.typeform.com/embed.js" type="text/javascript"></script>
+      <script src="https://embed.typeform.com/embed.js"></script>
+
       <script type="text/javascript">
 
-      typeformEmbed.makeWidget(element, url, options)
+        typeformEmbed.makeWidget(element, url, options)
 
-      const embedElement = document.querySelector('.target-dom-node')
+        const embedElement = document.querySelector('.target-dom-node')
 
-      typeformEmbed.makeWidget(
-        embedElement,
-        'https://kevalshah6.typeform.com/to/BDNCvT',
-        {
-          hideHeaders: true,
-          hideFooter: true,
-          opacity: 75,
-          buttonText: "Curious? Questions? Get in touch!",
-          onSubmit: function () {
-            console.log('Thank you for reaching out!')
+        typeformEmbed.makeWidget(
+          embedElement,
+          'https://kevalshah6.typeform.com/to/BDNCvT',
+          {
+            hideHeaders: true,
+            hideFooter: true,
+            opacity: 75,
+            buttonText: "Curious? Questions? Get in touch!",
+            onSubmit: function () {
+              console.log('Thank you for reaching out!')
+          }
         }
-      }
       )
 
       </script>
@@ -79,7 +80,7 @@
       <footer class="mastfoot mt-auto">
         <div class="inner-bottom">
           <p>
-            <a href="mailto:info@stroom.app" class="btn btn-lg btn-secondary">info@stroom.app</a>
+            <!--<a href="mailto:info@stroom.app" class="btn btn-lg btn-secondary">info@stroom.app</a>-->
           </p>
         </div>
       </footer>
