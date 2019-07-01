@@ -15,7 +15,14 @@ padding-top: 90px;
 .lead {
 
 padding-top: 20px;
-align: center;
-text-align: center;
+align: 'center';
+text-align: 'center';
+
+}
+
+.tags {
+
+font-size: 1.1em;
+align: 'center'
 
 }
