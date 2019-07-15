@@ -699,13 +699,6 @@ padding-top: 50px;
 
 }
 
-.request {
-
-text-align: center;
-padding-top: 90px;
-
-}
-
 .lead {
 
 padding-top: 20px;
@@ -720,4 +713,10 @@ font-size: 1.1em;
 align: 'center'
 font-color: white;
 
+}
+
+#mainNav.navbar-shrink {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #d9d9d9 !important;
 }
