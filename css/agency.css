@@ -129,7 +129,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #b3b3b3;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -155,7 +155,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
+    font-size: 1em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
@@ -165,7 +165,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #091A31;
+    background-color: #b3b3b3;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
