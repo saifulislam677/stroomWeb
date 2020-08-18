@@ -28,8 +28,16 @@ align: 'center'
 }
 
 .intro-desc {
-  
+
  margin-top: -5%;
  margin-bottom: 4em;
+
+}
+
+.code-lines {
+
+ margin-top: -5%;
+ margin-bottom: 1em;
+ text-align: 'center'
 
 }
