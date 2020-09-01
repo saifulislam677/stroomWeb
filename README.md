@@ -1,4 +1,4 @@
 # stroom.app
 Stroom website
 
-Technology for Commercial Real Estate Planning and Workplace. 
+Platform for Commercial Real Estate Asset Revenue Management
