@@ -42,6 +42,19 @@ align: 'center'
 
 }
 
+.price-text {
+ 
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 12em;
+    padding-right: 12em;
+    font-family: sans-serif;
+
+}
+
+
 .video {
  margin-left: 29%;
 }
+
+
