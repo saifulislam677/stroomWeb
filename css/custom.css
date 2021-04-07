@@ -54,8 +54,8 @@ align: 'center'
 
 
 .video {
- margin-right: 50%;
- margin-left: 50%;
+ width: 40%;
+ margin: 0 auto;
 }
 
 
