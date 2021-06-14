@@ -38,53 +38,94 @@
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
+   <!--font awesome--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--Owl carousel-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    
+    
   </head>
 
   <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="img/STROOM-logo-white1.png" style="width:180px; height:50px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+  </button>
 
-    <div class="container">
+  <div class="collapse navbar-collapse bar" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="color:#000;"><strong> Home</strong> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:#000;"><b> Shop</b></a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#" style="color:#000;"> <b> Blog</b></a>
+      </li>
+	  
+	   <li class="nav-item">
+        <a class="nav-link" href="#" style="color:#000;"> <b> Pages</b></a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#"  style="color:#000;"><b>  Elements</b></a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="about.php"  style="color:#000;"><b> Buy</b></a>
+      </li>
+	  </ul>
+	  
+    </ul>
+   
+   
+</nav>
 
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/STROOM-logo-white1.png" style="width: 150px; height: 70px;">
-        <div class = "tags" style="color: #ffffff; font-size: 22px;">Pricing for Commercial Real Estate.</div>
-      </a>
-
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#product">Product</a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Product</a>
-          </li>-->
-        </ul>
+  <!--slider--->
+    <div class="owl-carousel owl-theme">
+      <div class="slide slide-1">
+        <div class="slide-content">
+          <h1>SMARTER PARKING MANAGEMENT</h1>
+          <p>The leading provider of business intelligence and dynamic pricing solutions for smarter parking management. Serving the $655B parking industry, real estate owners, municipalities, airports, hospitalities, and more.</p>
+          <button class="btn btn-danger btn-xl">See Our Blog</button>
+        </div>
       </div>
-
-    </div>
-
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-heading" style="font-size:22.8px">Pricing and Deal Underwriting Software for Commercial Real Estate.</div>
-        <!-- <div class="intro-lead-in">Welcome To Our Studio!</div> -->
-        <p id="intro-desc" class="intro-desc">We use proven techniques from Econometrics, Spatial Economics and Data Science to turn real estate data into decisions.</p>
-
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#product">Learn More</a>
-
+    
+     <div class="slide slide-2">
+        <div class="slide-content">
+          <h1>SMARTER PARKING MANAGEMENT</h1>
+          <p>The leading provider of business intelligence and dynamic pricing solutions for smarter parking management. Serving the $655B parking industry, real estate owners, municipalities, airports, hospitalities, and more.</p>
+          <button class="btn btn-danger btn-xl">See Our Blog</button>
+        </div>
       </div>
+      
+      
+       <div class="slide slide-3">
+        <div class="slide-content">
+          <h1>SMARTER PARKING MANAGEMENT</h1>
+          <p>The leading provider of business intelligence and dynamic pricing solutions for smarter parking management. Serving the $655B parking industry, real estate owners, municipalities, airports, hospitalities, and more.</p>
+          <button class="btn btn-danger btn-xl">See Our Blog</button>
+        </div>
+      </div>
+      
+      
+      
+      
+      
     </div>
-  </header>
+    
+    
+    
+    
+    
+    
+    
 
   <!-- Services -->
   <section class="page-section" id="product">
@@ -428,6 +469,57 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    
+    <script>
+    $(document).ready(fuction(){
+                     
+       $(".owl-carousel").owlCarousel({
+    
+    items:1,
+      loop:true,
+      nav:true,
+      dots:true,
+      autoPlay:true,
+      autoplaySpeed:1000,
+      smartSpeed:1500,
+      autoplayHoverPause:true
+    
+    
+    
+    });              
+                     
+                     
+                     
+                     )};
+    
+    
+    
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     <!-- Bootstrap core JavaScript
